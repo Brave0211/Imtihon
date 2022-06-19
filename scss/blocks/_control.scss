@@ -1,0 +1,46 @@
+.control {
+   padding-top: 240px;
+   padding-bottom: 240px;
+   background-image: url(../images/footer-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.control__list {
+   max-width: 490px;
+   margin: 0;
+   margin-left: auto;
+   padding: 0;
+   list-style: none;
+}
+
+.control__list-head {
+   color: $color-white;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 120%;
+}
+
+.control__list-txt {
+   color: $color-white;
+   margin-top: 30px;
+   padding-left: 40px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 150%; 
+   border-left:  3px solid $color-white;
+}
+
+.control__but {
+   width: 260px;
+   margin-top: 30px;
+   padding: 12px 38px;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: $color-white;
+   background-color: $color-pink;
+   &:hover{
+      color: $color-black;
+   }
+}
